@@ -1,9 +1,15 @@
 class XmlGenerator:
+    
+    LETRAS = ["A", "B", "C", "D", "E", "F"]
 
     def generate(
         self,
         question
     ):
+
+        letra_correcta = self.LETRAS[
+            question.correcta
+        ]
 
         xml = f"""
 <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -33,7 +39,7 @@ class XmlGenerator:
 
     </as>
 
-    <x></x>
+    <x>{letra_correcta}.</x>
 
     <x2>{question.explicacion}</x2>
 

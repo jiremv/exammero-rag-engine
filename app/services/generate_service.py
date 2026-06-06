@@ -1,4 +1,5 @@
 import json
+import re
 
 from app.models.exam_question import ExamQuestion
 from app.providers.ollama_provider import OllamaProvider
@@ -19,6 +20,22 @@ class GenerateService:
             tema
         )
 
-        data = json.loads(response)
+        data = json.loads(
+            response
+        )
 
-        return ExamQuestion(**data)
+        for i, opcion in enumerate(
+            data["alternativas"]
+        ):
+
+            opcion = re.sub(
+                r'^[A-Z]\)\s*',
+                '',
+                opcion
+            )
+
+            data["alternativas"][i] = opcion
+
+        return ExamQuestion(
+            **data
+        )
