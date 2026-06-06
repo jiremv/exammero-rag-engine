@@ -1,0 +1,195 @@
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales de tránsito indica la obligatoriedad del uso de cascos protectoras para los ciclistas?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>Señal de advertencia</a>
+        <a>Señal de prohibición</a>
+        <a>Señal de recomendación</a>
+        <a>Señal de obligatoriedad</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La señal de obligatoriedad (indicada por la imagen de un casco) indica que el uso de cascos protectoras es obligatorio para los ciclistas en esa zona. La señal de advertencia puede servir como recordatorio, pero no impone una obligación específica. Las señales de prohibición y recomendación no están relacionadas con la obligatoriedad del uso de cascos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales de tránsito indica la orden de circular a la izquierda?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>Señal de stop</a>
+        <a>Señal de peligro</a>
+        <a>Señal de círculo a la izquierda</a>
+        <a>Señal de parada</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La respuesta correcta es 'Señal de círculo a la izquierda' porque esta señal indica a los conductores que deben circular a la izquierda. Esta señal se utiliza para indicar cambios en el trayecto o para alertar a los conductores de un riesgo inminente.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales de tránsito indica la prioridad del vehículo que se aproxima?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>Señal STOP</a>
+        <a>Señal de circulación</a>
+        <a>Señal de prioridad vehicular</a>
+        <a>Señal de detención</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La respuesta correcta es la señal de prioridad vehicular porque indica que el vehículo que se aproxima tiene prioridad sobre otros vehículos en la intersección, lo que permite un flujo más eficiente del tráfico y disminuye el riesgo de accidentes.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál es la función principal de una señal de STOP?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>Detener el tráfico en ambos sentidos</a>
+        <a>Dar prioridad a los vehículos que se acercan</a>
+        <a>Indicar un desvío o una prohibición</a>
+        <a>Permitir el cruce de peatones</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La respuesta correcta es 'Indicar un desvío o una prohibición' porque la señal de STOP tiene como función principal indicar a los conductores que deben detenerse y no seguir adelante, ya sea para dar prioridad a otro tipo de tráfico o para evitar un peligro. Esta señal es fundamental en el tráfico urbano para garantizar la seguridad de todos los usuarios.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué función cumple la señal de STOP en un cruce?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="3">
+
+        <a>Indica el fin de una zona de velocidad reducida</a>
+        <a>Obtiene prioridad a los vehículos que deseen cruzar</a>
+        <a>Permite a los peatones y ciclistas continuar avanzando</a>
+        <a>Solicita a los conductores que detengan su vehículo</a>
+
+    </as>
+
+    <x>D.</x>
+
+    <x2>La señal de STOP (señal roja) indica que el cruce está bajo control y se requiere que los conductores detengan su vehículo. Esto garantiza la seguridad al cruzar, ya que permite a los peatones y otros vehículos llegar al otro lado del cruce sin riesgos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+

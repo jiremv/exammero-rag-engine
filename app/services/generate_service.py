@@ -19,11 +19,30 @@ class GenerateService:
         response = self.provider.generate(
             tema
         )
+        print("========== RESPUESTA OLLAMA ==========")
+        print(response)
+        print("======================================")
+        try:
 
-        data = json.loads(
-            response
-        )
+            data = json.loads(
+                response
+            )
 
+        except Exception as e:
+
+            print("\nERROR JSON:\n")
+
+            print(response)
+
+            raise e        
+        #data = json.loads(
+        #    response
+        #)
+
+        # Limpia prefijos tipo:
+        # A) ...
+        # B) ...
+        # C) ...
         for i, opcion in enumerate(
             data["alternativas"]
         ):
@@ -39,3 +58,23 @@ class GenerateService:
         return ExamQuestion(
             **data
         )
+
+    def generate_exam(
+        self,
+        tema: str,
+        cantidad: int
+    ):
+
+        questions = []
+
+        for _ in range(cantidad):
+
+            question = self.generate(
+                tema
+            )
+
+            questions.append(
+                question
+            )
+
+        return questions
