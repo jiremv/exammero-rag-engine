@@ -1,45 +1,24 @@
-from ollama import chat
+import json
+
+from app.models.exam_question import ExamQuestion
+from app.providers.ollama_provider import OllamaProvider
 
 
 class GenerateService:
 
+    def __init__(self):
+
+        self.provider = OllamaProvider()
+
     def generate(
         self,
-        tema: str,
-        cantidad: int,
-        nivel: str
+        tema: str
     ):
 
-        prompt = f"""
-Genera {cantidad} preguntas de examen sobre {tema}.
-
-Nivel: {nivel}
-
-Devuelve únicamente JSON válido con esta estructura:
-
-[
-  {{
-    "q": "pregunta",
-    "opciones": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "correcta": 0,
-    "explicacion": "..."
-  }}
-]
-"""
-
-        response = chat(
-            model="llama3",
-            messages=[
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ]
+        response = self.provider.generate(
+            tema
         )
 
-        return response["message"]["content"]
+        data = json.loads(response)
+
+        return ExamQuestion(**data)
