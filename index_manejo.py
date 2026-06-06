@@ -22,15 +22,29 @@ for file in base_path.glob("*.txt"):
         encoding="utf-8"
     )
 
-    response = embeddings(
-        model="nomic-embed-text",
-        prompt=content
-    )
+    chunks = [
+        chunk.strip()
+        for chunk in content.split("\n\n")
+        if chunk.strip()
+    ]
 
-    collection.add(
-        ids=[file.name],
-        documents=[content],
-        embeddings=[response["embedding"]]
-    )
+    for index, chunk in enumerate(chunks):
+
+        response = embeddings(
+            model="nomic-embed-text",
+            prompt=chunk
+        )
+
+        collection.add(
+            ids=[
+                f"{file.stem}_{index}"
+            ],
+            documents=[
+                chunk
+            ],
+            embeddings=[
+                response["embedding"]
+            ]
+        )
 
 print("INDEXADO COMPLETADO")
