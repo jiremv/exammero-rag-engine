@@ -1,11 +1,13 @@
 from fastapi import FastAPI
-
+from app.api.generate_controller import router as generate_router
 from app.api.rag_controller import router as rag_router
 
 app = FastAPI(
     title="Exammero RAG Engine",
     version="0.0.1"
 )
+
+app.include_router(generate_router)
 
 app.include_router(rag_router)
 
