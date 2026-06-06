@@ -1,0 +1,11 @@
+La señal PARE obliga al conductor a detener completamente el vehículo antes de continuar.
+
+La señal CEDA EL PASO obliga al conductor a reducir la velocidad y ceder la prioridad a los vehículos o peatones que tienen preferencia.
+
+La luz roja del semáforo obliga al conductor a detener completamente el vehículo.
+
+La luz amarilla del semáforo advierte al conductor que debe reducir la velocidad y prepararse para detenerse si es seguro hacerlo.
+
+La luz verde del semáforo permite avanzar siempre que la vía esté libre y se respete la prioridad de peatones y otros vehículos.
+
+La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.
