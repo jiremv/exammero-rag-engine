@@ -31,21 +31,26 @@ class GenerateService:
         except Exception as e:
 
             print("\nERROR JSON:\n")
-
             print(response)
 
-            raise e        
-        #data = json.loads(
-        #    response
-        #)
+            raise e
 
         # Limpia prefijos tipo:
         # A) ...
         # B) ...
         # C) ...
-        for i, opcion in enumerate(
-            data["alternativas"]
+        alternativas_limpias = []
+
+        for opcion in data.get(
+            "alternativas",
+            []
         ):
+
+            if not isinstance(
+                opcion,
+                str
+            ):
+                continue
 
             opcion = re.sub(
                 r'^[A-Z]\)\s*',
@@ -53,7 +58,29 @@ class GenerateService:
                 opcion
             )
 
-            data["alternativas"][i] = opcion
+            alternativas_limpias.append(
+                opcion
+            )
+
+        data["alternativas"] = alternativas_limpias
+
+        print(
+            "ALTERNATIVAS:",
+            data["alternativas"]
+        )
+
+        print(
+            "TOTAL:",
+            len(data["alternativas"])
+        )
+
+        if len( 
+            data["alternativas"] 
+        ) < 3:
+        
+            raise ValueError(
+                "Pregunta inválida: menos de 3 alternativas"
+            )
 
         return ExamQuestion(
             **data
@@ -69,12 +96,20 @@ class GenerateService:
 
         for _ in range(cantidad):
 
-            question = self.generate(
-                tema
-            )
+            try:
 
-            questions.append(
-                question
-            )
+                question = self.generate(
+                    tema
+                )
+
+                questions.append(
+                    question
+                )
+
+            except Exception as e:
+
+                print(
+                    f"Pregunta descartada: {e}"
+                )
 
         return questions

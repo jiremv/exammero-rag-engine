@@ -4,8 +4,8 @@ from app.generators.exam_xml_generator import ExamXmlGenerator
 service = GenerateService()
 
 questions = service.generate_exam(
-"Señales de tránsito",
-5
+    "Señales de tránsito",
+    20
 )
 
 generator = ExamXmlGenerator()

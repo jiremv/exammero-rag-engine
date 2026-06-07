@@ -29,7 +29,9 @@ class ManejoShard:
             query_embeddings=[
                 response["embedding"]
             ],
-            n_results=1
+            n_results=5
         )
 
-        return result["documents"][0][0]
+        return "\n\n".join(
+            result["documents"][0]
+        )        

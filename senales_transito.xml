@@ -6,7 +6,7 @@
 
     <g0></g0>
 
-    <q>¿Cuál de las siguientes señales de tránsito indica la obligatoriedad del uso de cascos protectoras para los ciclistas?</q>
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
 
     <q2></q2>
 
@@ -16,18 +16,18 @@
 
     <q5></q5>
 
-    <as r="R" correcta="2">
+    <as r="R" correcta="1">
 
-        <a>Señal de advertencia</a>
-        <a>Señal de prohibición</a>
-        <a>Señal de recomendación</a>
-        <a>Señal de obligatoriedad</a>
+        <a>No hay señales</a>
+        <a>Sobrepasar vehículos</a>
+        <a>No adelantar a peatones</a>
+        <a>No hacer U-turn</a>
 
     </as>
 
-    <x>C.</x>
+    <x>B.</x>
 
-    <x2>La señal de obligatoriedad (indicada por la imagen de un casco) indica que el uso de cascos protectoras es obligatorio para los ciclistas en esa zona. La señal de advertencia puede servir como recordatorio, pero no impone una obligación específica. Las señales de prohibición y recomendación no están relacionadas con la obligatoriedad del uso de cascos.</x2>
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
 
     <i></i>
 
@@ -45,7 +45,7 @@
 
     <g0></g0>
 
-    <q>¿Cuál de las siguientes señales de tránsito indica la orden de circular a la izquierda?</q>
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
 
     <q2></q2>
 
@@ -55,18 +55,18 @@
 
     <q5></q5>
 
-    <as r="R" correcta="2">
+    <as r="R" correcta="1">
 
-        <a>Señal de stop</a>
-        <a>Señal de peligro</a>
-        <a>Señal de círculo a la izquierda</a>
-        <a>Señal de parada</a>
+        <a>No indica qué velocidad debe tener el vehículo</a>
+        <a>No está permitido sobrepasar a otro vehículo en ese tramo de la vía</a>
+        <a>Se permite el cruce peatonal</a>
+        <a>Se permite adelantar al vehículo que se encuentra detrás</a>
 
     </as>
 
-    <x>C.</x>
+    <x>B.</x>
 
-    <x2>La respuesta correcta es 'Señal de círculo a la izquierda' porque esta señal indica a los conductores que deben circular a la izquierda. Esta señal se utiliza para indicar cambios en el trayecto o para alertar a los conductores de un riesgo inminente.</x2>
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
 
     <i></i>
 
@@ -84,7 +84,7 @@
 
     <g0></g0>
 
-    <q>¿Cuál de las siguientes señales de tránsito indica la prioridad del vehículo que se aproxima?</q>
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
 
     <q2></q2>
 
@@ -94,18 +94,18 @@
 
     <q5></q5>
 
-    <as r="R" correcta="2">
+    <as r="R" correcta="1">
 
-        <a>Señal STOP</a>
-        <a>Señal de circulación</a>
-        <a>Señal de prioridad vehicular</a>
-        <a>Señal de detención</a>
+        <a>No hay restricciones para el tráfico</a>
+        <a>No está permitido sobrepasar a otro vehículo en ese tramo de la vía</a>
+        <a>Es obligatorio adelantar a un vehículo que se encuentra estacionado</a>
+        <a>Sólo se permite a los peatones cruzar</a>
 
     </as>
 
-    <x>C.</x>
+    <x>B.</x>
 
-    <x2>La respuesta correcta es la señal de prioridad vehicular porque indica que el vehículo que se aproxima tiene prioridad sobre otros vehículos en la intersección, lo que permite un flujo más eficiente del tráfico y disminuye el riesgo de accidentes.</x2>
+    <x2></x2>
 
     <i></i>
 
@@ -123,7 +123,7 @@
 
     <g0></g0>
 
-    <q>¿Cuál es la función principal de una señal de STOP?</q>
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
 
     <q2></q2>
 
@@ -133,18 +133,19 @@
 
     <q5></q5>
 
-    <as r="R" correcta="2">
+    <as r="R" correcta="1">
 
-        <a>Detener el tráfico en ambos sentidos</a>
-        <a>Dar prioridad a los vehículos que se acercan</a>
-        <a>Indicar un desvío o una prohibición</a>
-        <a>Permitir el cruce de peatones</a>
+        <a>Indica que se permite adelantar a otros vehículos</a>
+        <a>No está permitido sobrepasar a otro vehículo</a>
+        <a>Se requiere adelantamiento en ese tramo</a>
+        <a>No hay restricción para el adelantamiento</a>
+        <a>Se recomienda adelantar con cuidado</a>
 
     </as>
 
-    <x>C.</x>
+    <x>B.</x>
 
-    <x2>La respuesta correcta es 'Indicar un desvío o una prohibición' porque la señal de STOP tiene como función principal indicar a los conductores que deben detenerse y no seguir adelante, ya sea para dar prioridad a otro tipo de tráfico o para evitar un peligro. Esta señal es fundamental en el tráfico urbano para garantizar la seguridad de todos los usuarios.</x2>
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
 
     <i></i>
 
@@ -162,7 +163,7 @@
 
     <g0></g0>
 
-    <q>¿Qué función cumple la señal de STOP en un cruce?</q>
+    <q>¿Qué significa la señal PROHIBIDO ADELANTAR en un tramo de vía?</q>
 
     <q2></q2>
 
@@ -172,18 +173,608 @@
 
     <q5></q5>
 
-    <as r="R" correcta="3">
+    <as r="R" correcta="1">
 
-        <a>Indica el fin de una zona de velocidad reducida</a>
-        <a>Obtiene prioridad a los vehículos que deseen cruzar</a>
-        <a>Permite a los peatones y ciclistas continuar avanzando</a>
-        <a>Solicita a los conductores que detengan su vehículo</a>
+        <a>No está permitido adelantar a otro vehículo</a>
+        <a>No está permitido sobrepasar a otro vehículo</a>
+        <a>No hay restricciones para el tráfico</a>
+        <a>No está permitido circular en reversa</a>
 
     </as>
 
-    <x>D.</x>
+    <x>B.</x>
 
-    <x2>La señal de STOP (señal roja) indica que el cruce está bajo control y se requiere que los conductores detengan su vehículo. Esto garantiza la seguridad al cruzar, ya que permite a los peatones y otros vehículos llegar al otro lado del cruce sin riesgos.</x2>
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>Indica un límite de velocidad</a>
+        <a>No está permitido sobrepasar a otro vehículo en ese tramo de la vía</a>
+        <a>Señala un cambio en el sentido de circulación</a>
+        <a>Es una señal de advertencia para un peligro inminente</a>
+        <a>La señal indica un lugar específico donde es obligatorio detenerse</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La respuesta correcta es que la señal PROHIBIDO ADELANTAR indica no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>Permite adelantar a otro vehículo</a>
+        <a>No permite sobrepasar a otro vehículo</a>
+        <a>No es una señal de tráfico</a>
+        <a>Sólo para bicicletas</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué función cumple la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No indica velocidad permitida</a>
+        <a>No permite sobrepasar a otro vehículo</a>
+        <a>No es una señal de tráfico</a>
+        <a>No indica si se puede estacionar</a>
+        <a>Indica la dirección que debe seguir el tráfico</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2></x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR en un tramo de la vía?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No está permitido circular</a>
+        <a>No está permitido sobrepasar a otro vehículo</a>
+        <a>No hay restricciones para el tráfico</a>
+        <a>No se permite el estacionamiento</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>No hay restricciones para sobrepasar</a>
+        <a>Sólo se puede adelantar en un lugar específico</a>
+        <a>No está permitido sobrepasar a otro vehículo</a>
+        <a>Sólo se permite pasar si hay tráfico lento</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál es el propósito de la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No hay un límite de velocidad</a>
+        <a>No está permitido sobrepasar a otro vehículo</a>
+        <a>Es obligatorio adelantar al otro vehículo</a>
+        <a>No es una señal relevante para el tráfico</a>
+        <a>Tiempo límite para realizar una maniobra</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La respuesta correcta es 'No está permitido sobrepasar a otro vehículo' ya que la señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No hay restricciones de velocidad</a>
+        <a>No está permitido sobrepasar a otro vehículo en ese tramo de la vía</a>
+        <a>No se permite estacionarse</a>
+        <a>Es obligatorio el uso de casco</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál es la función de la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No permite el estacionamiento</a>
+        <a>No permite sobrepasar a otro vehículo</a>
+        <a>No indica la velocidad máxima</a>
+        <a>No es una señal de tráfico</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No permite estacionarse</a>
+        <a>No permite sobrepasar a otro vehículo en ese tramo de la vía</a>
+        <a>No permite doblar</a>
+        <a>No permite cambiar de dirección</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No permite adelantar a otros vehículos</a>
+        <a>No está permitido sobrepasar a otro vehículo</a>
+        <a>No es una indicación de tráfico</a>
+        <a>Es un signo de advertencia para cambiar de carril</a>
+        <a>Todavía no hay tráfico en la vía</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál es la función de la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No hay restricción</a>
+        <a>No está permitido sobrepasar a otro vehículo</a>
+        <a>Se permite adelantar siempre</a>
+        <a>No hay una señal específica para este caso</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué tipo de señal indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No hay señal</a>
+        <a>Prohibido adelantar</a>
+        <a>Recomendado adelantar</a>
+        <a>Puede adelantar</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La respuesta correcta es 'Prohibido adelantar' ya que la señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué significado tiene la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No hay restricción para sobrepasar</a>
+        <a>No está permitido sobrepasar a otro vehículo</a>
+        <a>Solo se permite adelantar en tramos curvos</a>
+        <a>Se puede adelantar siempre y cuando no haya tráfico</a>
+        <a>El adelantamiento es obligatorio</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No permite el paso a peatones</a>
+        <a>No permite sobrepasar a otro vehículo</a>
+        <a>No permite estacionarse</a>
+        <a>No permite girar</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>Permitir el tráfico en ambos sentidos</a>
+        <a>No está permitido sobrepasar a otro vehículo</a>
+        <a>No hay tráfico en este sentido</a>
+        <a>Tiene un límite de velocidad</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
 
     <i></i>
 
