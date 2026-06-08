@@ -1,0 +1,9 @@
+Solo se puede adelantar cuando la señalización lo permite.
+
+Está prohibido adelantar en curvas.
+
+Está prohibido adelantar en puentes.
+
+Está prohibido adelantar en pasos peatonales.
+
+Está prohibido adelantar cuando existe línea continua.

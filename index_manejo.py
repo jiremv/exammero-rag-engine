@@ -18,6 +18,10 @@ base_path = Path(
 
 for file in base_path.glob("*.txt"):
 
+    print(
+        f"Indexando archivo: {file}"
+    )
+    
     content = file.read_text(
         encoding="utf-8"
     )

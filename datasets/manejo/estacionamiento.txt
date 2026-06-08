@@ -1,0 +1,9 @@
+Está prohibido estacionar frente a hidrantes.
+
+Está prohibido estacionar en pasos peatonales.
+
+Está prohibido estacionar en curvas.
+
+Está prohibido estacionar bloqueando accesos.
+
+Está prohibido estacionar en zonas señalizadas como prohibidas.

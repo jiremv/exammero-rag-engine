@@ -2,8 +2,23 @@ from app.shards.manejo.manejo_shard import ManejoShard
 
 shard = ManejoShard()
 
-context = shard.search(
-    "señal stop"
+print("========== PEATONES ==========")
+print(
+    shard.search(
+        "peatones"
+    )
 )
 
-print(context)
+print("========== VELOCIDAD ==========")
+print(
+    shard.search(
+        "velocidad maxima"
+    )
+)
+
+print("========== SEMAFORO ==========")
+print(
+    shard.search(
+        "luz roja"
+    )
+)

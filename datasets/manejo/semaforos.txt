@@ -1,0 +1,7 @@
+La luz roja obliga al conductor a detener completamente el vehículo.
+
+La luz amarilla advierte que el semáforo cambiará a rojo.
+
+La luz verde permite avanzar si la vía está libre.
+
+La luz roja intermitente obliga a detenerse y continuar solo cuando sea seguro.
