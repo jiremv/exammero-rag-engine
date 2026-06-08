@@ -32,6 +32,10 @@ class ManejoShard:
             n_results=5
         )
 
+        print(
+            result["documents"][0]
+        )
+        
         return "\n\n".join(
             result["documents"][0]
         )        

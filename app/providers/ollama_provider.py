@@ -49,7 +49,9 @@ Formato:
 
 Reglas:
 
-* Genera una pregunta diferente cada vez.
+* NO generes preguntas sobre el mismo concepto si ya fue utilizado anteriormente.
+* Selecciona aleatoriamente un fragmento distinto del contexto recuperado.
+* Las cuatro alternativas deben ser plausibles.
 * Utiliza una parte distinta del contexto.
 * No repitas preguntas previamente generadas.
 * Si existen varias señales o reglas en el contexto, elige una diferente para cada pregunta.

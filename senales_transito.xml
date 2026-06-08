@@ -6,361 +6,7 @@
 
     <g0></g0>
 
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
-
-    <q2></q2>
-
-    <q3></q3>
-
-    <q4></q4>
-
-    <q5></q5>
-
-    <as r="R" correcta="1">
-
-        <a>No hay señales</a>
-        <a>Sobrepasar vehículos</a>
-        <a>No adelantar a peatones</a>
-        <a>No hacer U-turn</a>
-
-    </as>
-
-    <x>B.</x>
-
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
-
-    <i></i>
-
-    <i2></i2>
-
-    <v1></v1>
-
-</p>
-
-
-<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
-
-    <q0></q0>
-
-    <g0></g0>
-
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
-
-    <q2></q2>
-
-    <q3></q3>
-
-    <q4></q4>
-
-    <q5></q5>
-
-    <as r="R" correcta="1">
-
-        <a>No indica qué velocidad debe tener el vehículo</a>
-        <a>No está permitido sobrepasar a otro vehículo en ese tramo de la vía</a>
-        <a>Se permite el cruce peatonal</a>
-        <a>Se permite adelantar al vehículo que se encuentra detrás</a>
-
-    </as>
-
-    <x>B.</x>
-
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
-
-    <i></i>
-
-    <i2></i2>
-
-    <v1></v1>
-
-</p>
-
-
-<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
-
-    <q0></q0>
-
-    <g0></g0>
-
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
-
-    <q2></q2>
-
-    <q3></q3>
-
-    <q4></q4>
-
-    <q5></q5>
-
-    <as r="R" correcta="1">
-
-        <a>No hay restricciones para el tráfico</a>
-        <a>No está permitido sobrepasar a otro vehículo en ese tramo de la vía</a>
-        <a>Es obligatorio adelantar a un vehículo que se encuentra estacionado</a>
-        <a>Sólo se permite a los peatones cruzar</a>
-
-    </as>
-
-    <x>B.</x>
-
-    <x2></x2>
-
-    <i></i>
-
-    <i2></i2>
-
-    <v1></v1>
-
-</p>
-
-
-<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
-
-    <q0></q0>
-
-    <g0></g0>
-
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
-
-    <q2></q2>
-
-    <q3></q3>
-
-    <q4></q4>
-
-    <q5></q5>
-
-    <as r="R" correcta="1">
-
-        <a>Indica que se permite adelantar a otros vehículos</a>
-        <a>No está permitido sobrepasar a otro vehículo</a>
-        <a>Se requiere adelantamiento en ese tramo</a>
-        <a>No hay restricción para el adelantamiento</a>
-        <a>Se recomienda adelantar con cuidado</a>
-
-    </as>
-
-    <x>B.</x>
-
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
-
-    <i></i>
-
-    <i2></i2>
-
-    <v1></v1>
-
-</p>
-
-
-<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
-
-    <q0></q0>
-
-    <g0></g0>
-
-    <q>¿Qué significa la señal PROHIBIDO ADELANTAR en un tramo de vía?</q>
-
-    <q2></q2>
-
-    <q3></q3>
-
-    <q4></q4>
-
-    <q5></q5>
-
-    <as r="R" correcta="1">
-
-        <a>No está permitido adelantar a otro vehículo</a>
-        <a>No está permitido sobrepasar a otro vehículo</a>
-        <a>No hay restricciones para el tráfico</a>
-        <a>No está permitido circular en reversa</a>
-
-    </as>
-
-    <x>B.</x>
-
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
-
-    <i></i>
-
-    <i2></i2>
-
-    <v1></v1>
-
-</p>
-
-
-<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
-
-    <q0></q0>
-
-    <g0></g0>
-
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
-
-    <q2></q2>
-
-    <q3></q3>
-
-    <q4></q4>
-
-    <q5></q5>
-
-    <as r="R" correcta="1">
-
-        <a>Indica un límite de velocidad</a>
-        <a>No está permitido sobrepasar a otro vehículo en ese tramo de la vía</a>
-        <a>Señala un cambio en el sentido de circulación</a>
-        <a>Es una señal de advertencia para un peligro inminente</a>
-        <a>La señal indica un lugar específico donde es obligatorio detenerse</a>
-
-    </as>
-
-    <x>B.</x>
-
-    <x2>La respuesta correcta es que la señal PROHIBIDO ADELANTAR indica no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
-
-    <i></i>
-
-    <i2></i2>
-
-    <v1></v1>
-
-</p>
-
-
-<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
-
-    <q0></q0>
-
-    <g0></g0>
-
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
-
-    <q2></q2>
-
-    <q3></q3>
-
-    <q4></q4>
-
-    <q5></q5>
-
-    <as r="R" correcta="1">
-
-        <a>Permite adelantar a otro vehículo</a>
-        <a>No permite sobrepasar a otro vehículo</a>
-        <a>No es una señal de tráfico</a>
-        <a>Sólo para bicicletas</a>
-
-    </as>
-
-    <x>B.</x>
-
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
-
-    <i></i>
-
-    <i2></i2>
-
-    <v1></v1>
-
-</p>
-
-
-<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
-
-    <q0></q0>
-
-    <g0></g0>
-
-    <q>¿Qué función cumple la señal PROHIBIDO ADELANTAR?</q>
-
-    <q2></q2>
-
-    <q3></q3>
-
-    <q4></q4>
-
-    <q5></q5>
-
-    <as r="R" correcta="1">
-
-        <a>No indica velocidad permitida</a>
-        <a>No permite sobrepasar a otro vehículo</a>
-        <a>No es una señal de tráfico</a>
-        <a>No indica si se puede estacionar</a>
-        <a>Indica la dirección que debe seguir el tráfico</a>
-
-    </as>
-
-    <x>B.</x>
-
-    <x2></x2>
-
-    <i></i>
-
-    <i2></i2>
-
-    <v1></v1>
-
-</p>
-
-
-<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
-
-    <q0></q0>
-
-    <g0></g0>
-
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR en un tramo de la vía?</q>
-
-    <q2></q2>
-
-    <q3></q3>
-
-    <q4></q4>
-
-    <q5></q5>
-
-    <as r="R" correcta="1">
-
-        <a>No está permitido circular</a>
-        <a>No está permitido sobrepasar a otro vehículo</a>
-        <a>No hay restricciones para el tráfico</a>
-        <a>No se permite el estacionamiento</a>
-
-    </as>
-
-    <x>B.</x>
-
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
-
-    <i></i>
-
-    <i2></i2>
-
-    <v1></v1>
-
-</p>
-
-
-<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
-
-    <q0></q0>
-
-    <g0></g0>
-
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+    <q>¿Qué señal de tráfico te obliga a detener completamente el vehículo antes de continuar?</q>
 
     <q2></q2>
 
@@ -372,16 +18,16 @@
 
     <as r="R" correcta="2">
 
-        <a>No hay restricciones para sobrepasar</a>
-        <a>Sólo se puede adelantar en un lugar específico</a>
-        <a>No está permitido sobrepasar a otro vehículo</a>
-        <a>Sólo se permite pasar si hay tráfico lento</a>
+        <a>La señal CEDA EL PASO</a>
+        <a>La señal DOBLE SENTIDO</a>
+        <a>La señal PARE</a>
+        <a>La señal PROHIBIDO ADELANTAR</a>
 
     </as>
 
     <x>C.</x>
 
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+    <x2>La señal PARE obliga al conductor a detener completamente el vehículo antes de continuar.</x2>
 
     <i></i>
 
@@ -399,7 +45,7 @@
 
     <g0></g0>
 
-    <q>¿Cuál es el propósito de la señal PROHIBIDO ADELANTAR?</q>
+    <q>¿Cuál es la función de la señal PROHIBIDO GIRAR A LA DERECHA?</q>
 
     <q2></q2>
 
@@ -411,17 +57,16 @@
 
     <as r="R" correcta="1">
 
-        <a>No hay un límite de velocidad</a>
-        <a>No está permitido sobrepasar a otro vehículo</a>
-        <a>Es obligatorio adelantar al otro vehículo</a>
-        <a>No es una señal relevante para el tráfico</a>
-        <a>Tiempo límite para realizar una maniobra</a>
+        <a>No hay restricción para girar</a>
+        <a>No está permitido realizar un giro hacia la derecha</a>
+        <a>Puede girar siempre y cuando no haya peatones cerca</a>
+        <a>La señal indica que se puede girar hacia la izquierda</a>
 
     </as>
 
     <x>B.</x>
 
-    <x2>La respuesta correcta es 'No está permitido sobrepasar a otro vehículo' ya que la señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+    <x2>La respuesta correcta es la opción 1 'No está permitido realizar un giro hacia la derecha' ya que la señal PROHIBIDO GIRAR A LA DERECHA impide realizar ese giro.</x2>
 
     <i></i>
 
@@ -439,7 +84,7 @@
 
     <g0></g0>
 
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+    <q>¿Cuál de las siguientes señales indica circulación en ambos sentidos?</q>
 
     <q2></q2>
 
@@ -451,16 +96,16 @@
 
     <as r="R" correcta="1">
 
-        <a>No hay restricciones de velocidad</a>
-        <a>No está permitido sobrepasar a otro vehículo en ese tramo de la vía</a>
-        <a>No se permite estacionarse</a>
-        <a>Es obligatorio el uso de casco</a>
+        <a>CEDA EL PASO</a>
+        <a>Doble Sentido</a>
+        <a>PARE</a>
+        <a>Prohibido Adelantar</a>
 
     </as>
 
     <x>B.</x>
 
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+    <x2>La señal Doble Sentido indica circulación en ambos sentidos.</x2>
 
     <i></i>
 
@@ -478,7 +123,7 @@
 
     <g0></g0>
 
-    <q>¿Cuál es la función de la señal PROHIBIDO ADELANTAR?</q>
+    <q>¿Cuál de las siguientes señales indica circulación en ambos sentidos?</q>
 
     <q2></q2>
 
@@ -490,16 +135,16 @@
 
     <as r="R" correcta="1">
 
-        <a>No permite el estacionamiento</a>
-        <a>No permite sobrepasar a otro vehículo</a>
-        <a>No indica la velocidad máxima</a>
-        <a>No es una señal de tráfico</a>
+        <a>CEDA EL PASO</a>
+        <a>DOBLES SENTIDO</a>
+        <a>PARE</a>
+        <a>PROHIBIDO ADELANTAR</a>
 
     </as>
 
     <x>B.</x>
 
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+    <x2>La respuesta correcta es DOBLES SENTIDO, ya que esta señal indica que la circulación se hace en ambos sentidos.</x2>
 
     <i></i>
 
@@ -517,7 +162,7 @@
 
     <g0></g0>
 
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+    <q>¿Qué señal de tráfico indica circulación en ambos sentidos?</q>
 
     <q2></q2>
 
@@ -529,16 +174,16 @@
 
     <as r="R" correcta="1">
 
-        <a>No permite estacionarse</a>
-        <a>No permite sobrepasar a otro vehículo en ese tramo de la vía</a>
-        <a>No permite doblar</a>
-        <a>No permite cambiar de dirección</a>
+        <a>La señal CEDA EL PASO</a>
+        <a>La señal DOBLE SENTIDO</a>
+        <a>No hay señal que indique esto</a>
+        <a>La señal PROHIBIDO ADELANTAR</a>
 
     </as>
 
     <x>B.</x>
 
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+    <x2>La respuesta correcta es la señal DOBLE SENTIDO, ya que esta señal indica circulación en ambos sentidos.</x2>
 
     <i></i>
 
@@ -556,7 +201,124 @@
 
     <g0></g0>
 
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+    <q>¿Cuál de las siguientes señales indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="0">
+
+        <a>Doble sentido</a>
+        <a>Ceda el paso</a>
+        <a>Pare</a>
+        <a>Prohibido adelantar</a>
+
+    </as>
+
+    <x>A.</x>
+
+    <x2>La respuesta correcta es la señal DOBLE SENTIDO, que indica circulación en ambos sentidos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué señal de tráfico te ordena detener completamente tu vehículo antes de continuar?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>No hay señal que lo ordene</a>
+        <a>CEDA EL PASO</a>
+        <a>PARE</a>
+        <a>DOBLE SENTIDO</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La señal PARE obliga al conductor a detener completamente el vehículo antes de continuar.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales indica que no está permitido sobrepasar a otro vehículo?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="0">
+
+        <a>SEÑAL PROHIBIDO ADELANTAR</a>
+        <a>SEÑAL CEDA EL PASO</a>
+        <a>SEÑAL DOBLE SENTIDO</a>
+        <a>SEÑAL PARE</a>
+
+    </as>
+
+    <x>A.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué señal indica circulación en ambos sentidos?</q>
 
     <q2></q2>
 
@@ -568,17 +330,16 @@
 
     <as r="R" correcta="1">
 
-        <a>No permite adelantar a otros vehículos</a>
-        <a>No está permitido sobrepasar a otro vehículo</a>
-        <a>No es una indicación de tráfico</a>
-        <a>Es un signo de advertencia para cambiar de carril</a>
-        <a>Todavía no hay tráfico en la vía</a>
+        <a>No hay señal que indique circulación en ambos sentidos</a>
+        <a>Sólo la señal DOBLE SENTIDO</a>
+        <a>Sólo la señal CEDA EL PASO</a>
+        <a>Todas las señales mencionadas</a>
 
     </as>
 
     <x>B.</x>
 
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+    <x2>La señal DOBLE SENTIDO indica que los vehículos pueden circular en ambos sentidos.</x2>
 
     <i></i>
 
@@ -596,7 +357,7 @@
 
     <g0></g0>
 
-    <q>¿Cuál es la función de la señal PROHIBIDO ADELANTAR?</q>
+    <q>¿Cuál de las siguientes señales indica circulación en ambos sentidos?</q>
 
     <q2></q2>
 
@@ -607,17 +368,407 @@
     <q5></q5>
 
     <as r="R" correcta="1">
+
+        <a>CEDA EL PASO</a>
+        <a>Doble sentido</a>
+        <a>PARE</a>
+        <a>PROHIBIDO ADELANTAR</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La respuesta correcta es 'Doble sentido', ya que esta señal indica circulación en ambos sentidos, permitiendo el tránsito en dirección contraria.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>PARE</a>
+        <a>CEDA EL PASO</a>
+        <a>Doble Sentido</a>
+        <a>Prohibido Adelantar</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La respuesta correcta es 'Doble Sentido' ya que indica circulación en ambos sentidos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="0">
+
+        <a>SIGNAL DOBLE SENTIDO</a>
+        <a>PARE</a>
+        <a>CEDA EL PASO</a>
+        <a>PROHIBIDO ADELANTAR</a>
+
+    </as>
+
+    <x>A.</x>
+
+    <x2>La respuesta correcta es SIGNAL DOBLE SENTIDO, ya que esta señal indica circulación en ambos sentidos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>CEDA EL PASO</a>
+        <a>DOBLE SENTIDO</a>
+        <a>PROHIBIDO ADELANTAR</a>
+        <a>PARE</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal DOBLE SENTIDO indica que el tráfico puede circular en ambos sentidos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué tipo de señal de tráfico indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>SEÑAL DE PARE</a>
+        <a>CEDA EL PASO</a>
+        <a>DOBLE SENTIDO</a>
+        <a>PROHIBIDO ADELANTAR</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La señal DOBLE SENTIDO es la que indica circulación en ambos sentidos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>Cuál es la función de la señal PROHIBIDO GIRAR A LA DERECHA?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No hay restricción para realizar giros</a>
+        <a>No está permitido realizar giros hacia la derecha</a>
+        <a>Se permite realizar giros hacia la izquierda</a>
+        <a>No se permite realizar giros en general</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO GIRAR A LA DERECHA impide realizar un giro hacia la derecha. Es importante seguir esta indicación para evitar riesgos en la circulación.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales de tráfico indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>CEDA EL PASO</a>
+        <a>Doble Sentido</a>
+        <a>PARE</a>
+        <a>Prohibido Adelantar</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal Doble Sentido indica circulación en ambos sentidos, lo que permite el tráfico en dirección contraria.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales indica que no está permitido sobrepasar a otro vehículo?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>No hay señal</a>
+        <a>CEDA EL PASO</a>
+        <a>PROHIBIDO ADELANTAR</a>
+        <a>PARE</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La respuesta correcta es PROHIBIDO ADELANTAR, ya que esta señal indica que no está permitido sobrepasar a otro vehículo.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué tipo de señal indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>a0</a>
+        <a>a1</a>
+        <a>a2</a>
+        <a>a3</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal DOBLE SENTIDO indica que se puede circular en ambos sentidos, por lo que no hay restricciones de tráfico.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué señal de tráfico indica que no está permitido sobrepasar a otro vehículo?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>No hay señal específica</a>
+        <a>SALIR</a>
+        <a>PROHIBIDO ADELANTAR</a>
+        <a>CEDA EL PASO</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales de tráfico indica que no está permitido sobrepasar a otro vehículo?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
 
         <a>No hay restricción</a>
-        <a>No está permitido sobrepasar a otro vehículo</a>
-        <a>Se permite adelantar siempre</a>
-        <a>No hay una señal específica para este caso</a>
+        <a>PARE</a>
+        <a>PROHIBIDO ADELANTAR</a>
+        <a>CEDA EL PASO</a>
 
     </as>
 
-    <x>B.</x>
+    <x>C.</x>
 
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+    <x2>La respuesta correcta es PROHIBIDO ADELANTAR, ya que esta señal indica que no está permitido sobrepasar a otro vehículo.</x2>
 
     <i></i>
 
@@ -635,7 +786,358 @@
 
     <g0></g0>
 
-    <q>¿Qué tipo de señal indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía?</q>
+    <q>¿Qué tipo de señal de tráfico indica que no está permitido sobrepasar a otro vehículo?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>La CEDA EL PASO</a>
+        <a>El DOBLE SENTIDO</a>
+        <a>El PROHIBIDO ADELANTAR</a>
+        <a>La PARE</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La respuesta correcta es el PROHIBIDO ADELANTAR, ya que según el contexto, esta señal indica que no está permitido sobrepasar a otro vehículo.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las señales indica que no está permitido sobrepasar a otro vehículo?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>No hay señal</a>
+        <a>CEDA EL PASO</a>
+        <a>PROHIBIDO ADELANTAR</a>
+        <a>PARE</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales de tráfico indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="0">
+
+        <a>Doble sentido</a>
+        <a>Ceda el paso</a>
+        <a>Pare</a>
+        <a>No adelantar</a>
+
+    </as>
+
+    <x>A.</x>
+
+    <x2>La señal Doble sentido indica que los vehículos pueden circular en ambos sentidos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales de tráfico te obliga a detener completamente tu vehículo antes de continuar?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="0">
+
+        <a>PARE</a>
+        <a>CEDA EL PASO</a>
+        <a>DOSTENTIDO</a>
+        <a>PROHIBIDO ADELANTAR</a>
+
+    </as>
+
+    <x>A.</x>
+
+    <x2>La respuesta correcta es PARE, ya que esta señal obliga al conductor a detener completamente el vehículo antes de continuar.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las señales de tráfico indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="0">
+
+        <a>Doble sentido</a>
+        <a>Ceda el paso</a>
+        <a>Pare</a>
+        <a>Prohibido adelantar</a>
+
+    </as>
+
+    <x>A.</x>
+
+    <x2>La señal Doble sentido indica que la circulación es posible en ambos sentidos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué tipo de señal indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="0">
+
+        <a>Doble sentido</a>
+        <a>Ceda el paso</a>
+        <a>Pare</a>
+        <a>No adelantar</a>
+
+    </as>
+
+    <x>A.</x>
+
+    <x2>La respuesta correcta es la señal DOBLE SENTIDO, que indica circulación en ambos sentidos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>CEDA EL PASO</a>
+        <a>DOBLE SENTIDO</a>
+        <a>PARE</a>
+        <a>PROHIBIDO ADELANTAR</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La respuesta correcta es DOBLE SENTIDO, que indica circulación en ambos sentidos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales indica que no está permitido sobrepasar a otro vehículo?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>No hay señal</a>
+        <a>CEDA EL PASO</a>
+        <a>PROHIBIDO ADELANTAR</a>
+        <a>DOBLE SENTIDO</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La respuesta correcta es PROHIBIDO ADELANTAR, ya que esta señal indica que no está permitido sobrepasar a otro vehículo.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>Sígnal CEDA EL PASO</a>
+        <a>Sígnal DOBLE SENTIDO</a>
+        <a>Sígnal PROHIBIDO ADELANTAR</a>
+        <a>Sígnal PARE</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La respuesta correcta es Sígnal DOBLE SENTIDO, ya que indica circulación en ambos sentidos.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál es la señal que indica que no está permitido realizar un giro a la derecha?</q>
 
     <q2></q2>
 
@@ -648,15 +1150,15 @@
     <as r="R" correcta="1">
 
         <a>No hay señal</a>
-        <a>Prohibido adelantar</a>
-        <a>Recomendado adelantar</a>
-        <a>Puede adelantar</a>
+        <a>SEÑAL PROHIBIDO GIRAR A LA DERECHA</a>
+        <a>CEDA EL PASO</a>
+        <a>PARE</a>
 
     </as>
 
     <x>B.</x>
 
-    <x2>La respuesta correcta es 'Prohibido adelantar' ya que la señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+    <x2>La respuesta correcta es SEÑAL PROHIBIDO GIRAR A LA DERECHA, ya que esta señal impide realizar ese giro.</x2>
 
     <i></i>
 
@@ -674,7 +1176,7 @@
 
     <g0></g0>
 
-    <q>¿Qué significado tiene la señal PROHIBIDO ADELANTAR?</q>
+    <q>¿Qué tipo de señal indica circulación en ambos sentidos?</q>
 
     <q2></q2>
 
@@ -684,19 +1186,18 @@
 
     <q5></q5>
 
-    <as r="R" correcta="1">
+    <as r="R" correcta="0">
 
-        <a>No hay restricción para sobrepasar</a>
-        <a>No está permitido sobrepasar a otro vehículo</a>
-        <a>Solo se permite adelantar en tramos curvos</a>
-        <a>Se puede adelantar siempre y cuando no haya tráfico</a>
-        <a>El adelantamiento es obligatorio</a>
+        <a>Doble sentido</a>
+        <a>Ceda el paso</a>
+        <a>Pare</a>
+        <a>No adelantar</a>
 
     </as>
 
-    <x>B.</x>
+    <x>A.</x>
 
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+    <x2>La respuesta correcta es Doble sentido, ya que esta señal indica circulación en ambos sentidos.</x2>
 
     <i></i>
 
@@ -714,7 +1215,7 @@
 
     <g0></g0>
 
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+    <q>¿Qué indica la señal PROHIBIDO GIRAR A LA DERECHA?</q>
 
     <q2></q2>
 
@@ -724,18 +1225,18 @@
 
     <q5></q5>
 
-    <as r="R" correcta="1">
+    <as r="R" correcta="2">
 
-        <a>No permite el paso a peatones</a>
-        <a>No permite sobrepasar a otro vehículo</a>
-        <a>No permite estacionarse</a>
-        <a>No permite girar</a>
+        <a>No hay restricción de giros</a>
+        <a>Se permite girar a la izquierda y derecha</a>
+        <a>No se puede girar en ese sentido</a>
+        <a>Es obligatorio girar a la izquierda</a>
 
     </as>
 
-    <x>B.</x>
+    <x>C.</x>
 
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+    <x2>La señal PROHIBIDO GIRAR A LA DERECHA impide realizar un giro a la derecha.</x2>
 
     <i></i>
 
@@ -753,7 +1254,7 @@
 
     <g0></g0>
 
-    <q>¿Qué indica la señal PROHIBIDO ADELANTAR?</q>
+    <q>¿Qué función cumple la señal PARE?</q>
 
     <q2></q2>
 
@@ -765,16 +1266,250 @@
 
     <as r="R" correcta="1">
 
-        <a>Permitir el tráfico en ambos sentidos</a>
-        <a>No está permitido sobrepasar a otro vehículo</a>
-        <a>No hay tráfico en este sentido</a>
-        <a>Tiene un límite de velocidad</a>
+        <a>No es una señal de circulación</a>
+        <a>Obliga al conductor a detener completamente el vehículo antes de continuar</a>
+        <a>Solo indica la presencia de un peatón</a>
+        <a>Muestra la velocidad límite permitida en la zona</a>
 
     </as>
 
     <x>B.</x>
 
-    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.</x2>
+    <x2>La señal PARE obliga al conductor a detener completamente el vehículo antes de continuar, cumpliendo con este requisito es fundamental para garantizar la seguridad vial.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué señal de tráfico indica que no está permitido sobrepasar a otro vehículo?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>CEDA EL PASO</a>
+        <a>DOBLE SENTIDO</a>
+        <a>PROHIBIDO ADELANTAR</a>
+        <a>PARE</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué función cumple la señal PROHIBIDO GIRAR A LA DERECHA?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>Indica un obstáculo en la carretera</a>
+        <a>No permite adelantar a otro vehículo</a>
+        <a>No permite girar hacia la derecha</a>
+        <a>No indica velocidad máxima permitida</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La señal PROHIBIDO GIRAR A LA DERECHA impide realizar ese giro.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué indica la señal PROHIBIDO GIRAR A LA DERECHA?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="1">
+
+        <a>No permite girar a la izquierda</a>
+        <a>No permite girar a la derecha</a>
+        <a>No permite adelantar a otro vehículo</a>
+        <a>No permite parar el vehículo</a>
+
+    </as>
+
+    <x>B.</x>
+
+    <x2>La señal PROHIBIDO GIRAR A LA DERECHA impide realizar ese giro, por lo que no se puede girar hacia la derecha.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Cuál de las siguientes señales indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="0">
+
+        <a>SEÑAL DOBLE SENTIDO</a>
+        <a>SEÑAL CEDA EL PASO</a>
+        <a>SEÑAL PROHIBIDO ADELANTAR</a>
+        <a>SEÑAL PARE</a>
+
+    </as>
+
+    <x>A.</x>
+
+    <x2>La señal DOBLE SENTIDO indica circulación en ambos sentidos, es decir, se puede circular en un sentido y en otro sentido.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué significa la señal PROHIBIDO GIRAR A LA DERECHA?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="2">
+
+        <a>No se puede girar en ningún sentido</a>
+        <a>No se permite girar hacia la izquierda</a>
+        <a>No se permite realizar giros a la derecha</a>
+        <a>No se permite adelantar a otro vehículo</a>
+
+    </as>
+
+    <x>C.</x>
+
+    <x2>La señal PROHIBIDO GIRAR A LA DERECHA impide realizar un giro hacia la derecha, por lo que no es posible girar en ese sentido.</x2>
+
+    <i></i>
+
+    <i2></i2>
+
+    <v1></v1>
+
+</p>
+
+
+<p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+
+    <q0></q0>
+
+    <g0></g0>
+
+    <q>¿Qué tipo de señal indica circulación en ambos sentidos?</q>
+
+    <q2></q2>
+
+    <q3></q3>
+
+    <q4></q4>
+
+    <q5></q5>
+
+    <as r="R" correcta="0">
+
+        <a>Doble sentido</a>
+        <a>Ceda el paso</a>
+        <a>Pare</a>
+        <a>No adelantar</a>
+
+    </as>
+
+    <x>A.</x>
+
+    <x2>La señal DOBLE SENTIDO indica circulación en ambos sentidos.</x2>
 
     <i></i>
 

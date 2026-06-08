@@ -5,7 +5,7 @@ service = GenerateService()
 
 questions = service.generate_exam(
     "Señales de tránsito",
-    20
+    50
 )
 
 generator = ExamXmlGenerator()

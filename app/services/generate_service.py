@@ -28,6 +28,22 @@ class GenerateService:
                 response
             )
 
+            # Compatibilidad con formatos alternativos
+            if "alternativas" not in data:
+                if "a" in data:
+                    data["alternativas"] = data["a"]
+                elif (
+                    "a1" in data and
+                    "a2" in data and
+                    "a3" in data and
+                    "a4" in data
+                ):
+                    data["alternativas"] = [
+                        data["a1"],
+                        data["a2"],
+                        data["a3"],
+                        data["a4"]
+                    ]
         except Exception as e:
 
             print("\nERROR JSON:\n")
@@ -64,6 +80,27 @@ class GenerateService:
 
         data["alternativas"] = alternativas_limpias
 
+        if (
+            "a1" in data and
+            "a2" in data and
+            "a3" in data and
+            "a4" in data
+        ):
+
+            if data["alternativas"] == [
+                "a1",
+                "a2",
+                "a3",
+                "a4"
+            ]:
+
+                data["alternativas"] = [
+                    data["a1"],
+                    data["a2"],
+                    data["a3"],
+                    data["a4"]
+                ]
+
         print(
             "ALTERNATIVAS:",
             data["alternativas"]
@@ -76,11 +113,52 @@ class GenerateService:
 
         if len( 
             data["alternativas"] 
-        ) < 3:
+        ) != 4:
         
             raise ValueError(
-                "Pregunta inválida: menos de 3 alternativas"
+                f"Pregunta inválida: se esperaban 4 alternativas y llegaron {len(data['alternativas'])}"
             )
+
+        if "correcta" not in data:
+
+            raise ValueError(
+                "Pregunta inválida: falta el campo correcta"
+            )
+
+        if data["correcta"] < 0 or data["correcta"] >= len(data["alternativas"]):
+
+            raise ValueError(
+                f"Índice de respuesta inválido: {data['correcta']}"
+            )
+
+        if "q" not in data:
+
+            raise ValueError(
+                "Pregunta inválida: falta el campo q"
+            )
+
+        if "explicacion" not in data:
+
+            raise ValueError(
+                "Pregunta inválida: falta el campo explicacion"
+            )
+
+        if not data.get(
+            "q",
+            ""
+        ).strip():
+
+            raise ValueError(
+                "Pregunta inválida: pregunta vacía"
+            )            
+
+        if not data.get(
+            "explicacion",
+            ""
+        ).strip():
+            raise ValueError(
+                "Pregunta inválida: explicación vacía"
+            )                      
 
         return ExamQuestion(
             **data

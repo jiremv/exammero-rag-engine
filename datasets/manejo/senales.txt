@@ -9,3 +9,31 @@ La luz amarilla del semáforo advierte al conductor que debe reducir la velocida
 La luz verde del semáforo permite avanzar siempre que la vía esté libre y se respete la prioridad de peatones y otros vehículos.
 
 La señal PROHIBIDO ADELANTAR indica que no está permitido sobrepasar a otro vehículo en ese tramo de la vía.
+
+La señal DOBLE SENTIDO indica que la circulación vehicular se realiza en ambos sentidos.
+
+La señal PROHIBIDO GIRAR A LA DERECHA indica que no está permitido realizar un giro hacia la derecha.
+
+La señal PROHIBIDO GIRAR A LA IZQUIERDA indica que no está permitido realizar un giro hacia la izquierda.
+
+La señal PROHIBIDO ESTACIONAR indica que no está permitido dejar el vehículo estacionado en ese lugar.
+
+La señal VELOCIDAD MÁXIMA indica el límite máximo de velocidad permitido en una vía.
+
+La señal ZONA ESCOLAR advierte la presencia frecuente de niños cerca de la vía.
+
+La señal PASO PEATONAL indica un lugar destinado al cruce de peatones.
+
+La señal CURVA PELIGROSA advierte al conductor sobre una curva pronunciada próxima.
+
+La señal CRUCE FERROVIARIO advierte la proximidad de una vía férrea.
+
+La señal CALZADA RESBALADIZA advierte que la vía puede tener baja adherencia.
+
+La señal HOMBRES TRABAJANDO advierte la presencia de obras o trabajadores en la vía.
+
+La señal PROHIBIDO EL PASO indica que no está permitido continuar por esa vía.
+
+La señal SENTIDO ÚNICO indica que la circulación solo está permitida en una dirección.
+
+La señal ROTONDA indica que el conductor debe circular alrededor de una glorieta.
