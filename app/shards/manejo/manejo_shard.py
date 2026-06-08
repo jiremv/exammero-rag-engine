@@ -29,7 +29,7 @@ class ManejoShard:
             query_embeddings=[
                 response["embedding"]
             ],
-            n_results=5
+            n_results=3
         )
 
         print(

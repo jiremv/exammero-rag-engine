@@ -65,7 +65,7 @@ Reglas:
 * Responder únicamente JSON.
   """
         response = chat(
-            model="llama3",
+            model="llama3.2:3b",
             format="json",
             messages=[
                 {
