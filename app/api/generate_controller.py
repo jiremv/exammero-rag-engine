@@ -42,38 +42,3 @@ def generate_question_xml(
         content=xml,
         media_type="application/xml"
     )
-
-
-@router.post("/generate-exam")
-def generate_exam(
-    request: GenerateExamRequest
-):
-
-    questions = service.generate_exam(
-        request.tema,
-        request.cantidad
-    )
-
-    return questions
-
-
-@router.post("/generate-exam-xml")
-def generate_exam_xml(
-    request: GenerateExamRequest
-):
-
-    questions = service.generate_exam(
-        request.tema,
-        request.cantidad
-    )
-
-    generator = ExamXmlGenerator()
-
-    xml = generator.generate(
-        questions
-    )
-
-    return Response(
-        content=xml,
-        media_type="application/xml"
-    )

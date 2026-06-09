@@ -1,6 +1,16 @@
 from fastapi import FastAPI
-from app.api.generate_controller import router as generate_router
-from app.api.rag_controller import router as rag_router
+
+from app.api.generate_controller import (
+    router as generate_router
+)
+
+from app.api.rag_controller import (
+    router as rag_router
+)
+
+from app.api.generate_exam_api import (
+    router as exam_router
+)
 
 app = FastAPI(
     title="Exammero RAG Engine",
@@ -8,20 +18,20 @@ app = FastAPI(
 )
 
 app.include_router(generate_router)
-
 app.include_router(rag_router)
-
+app.include_router(exam_router)
 
 @app.get("/")
 def root():
+
     return {
         "service": "Exammero RAG Engine",
         "status": "running"
     }
 
-
 @app.get("/health")
 def health():
+
     return {
         "status": "UP"
     }

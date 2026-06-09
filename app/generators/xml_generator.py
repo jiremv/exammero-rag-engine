@@ -13,7 +13,7 @@ class XmlGenerator:
 
         xml = f"""
 <p xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:noNamespaceSchemaLocation="./../../../clase.xsd">
+   xsi:noNamespaceSchemaLocation="estilo.xsd">
 
     <q0>{question.q0}</q0>
 

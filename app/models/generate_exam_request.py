@@ -1,8 +1,9 @@
 from pydantic import BaseModel
 
+class GenerateExamRequest(
+    BaseModel
+):
 
-class GenerateExamRequest(BaseModel):
-
-    tema: str
+    examenId: str
 
     cantidad: int = 10
