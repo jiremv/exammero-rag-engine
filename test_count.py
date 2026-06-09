@@ -1,14 +1,16 @@
-import chromadb
+# test_count.py
 
-client = chromadb.PersistentClient(
-    path="chroma_db"
+from app.shards.manejo.manejo_shard import (
+    ManejoShard
 )
 
-collection = client.get_collection(
-    "manejo"
-)
+shard = ManejoShard()
+
+data = shard.collection.get()
 
 print(
     "DOCUMENTOS:",
-    collection.count()
+    len(
+        data["documents"]
+    )
 )

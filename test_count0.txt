@@ -1,0 +1,20 @@
+from app.services.generate_service import GenerateService
+
+service = GenerateService()
+
+for tema in [
+    "PEATONES",
+    "PARE",
+    "SEMAFORO",
+    "VELOCIDAD"
+]:
+
+    print("\n======================")
+    print(tema)
+    print("======================")
+
+    question = service.generate_controlled(
+        tema
+    )
+
+    print(question)

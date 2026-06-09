@@ -1,167 +1,94 @@
-import json
-import re
+from app.generators.controlled_question_generator import (
+    ControlledQuestionGenerator
+)
 
-from app.models.exam_question import ExamQuestion
-from app.providers.ollama_provider import OllamaProvider
+from app.providers.context_provider import (
+    ContextProvider
+)
+
+from app.validators.exam_validator import (
+    ExamValidator
+)
+
+from app.validators.semantic_validator import (
+    SemanticValidator
+)
 
 
 class GenerateService:
 
     def __init__(self):
 
-        self.provider = OllamaProvider()
+        self.provider = ContextProvider()
+
+        self.generator = (
+            ControlledQuestionGenerator()
+        )
+        self.usados = set()
 
     def generate(
         self,
         tema: str
     ):
 
-        response = self.provider.generate(
-            tema
-        )
-        print("========== RESPUESTA OLLAMA ==========")
-        print(response)
-        print("======================================")
-        try:
+        exam_validator = ExamValidator()
 
-            data = json.loads(
-                response
+        semantic_validator = SemanticValidator()
+
+        for _ in range(5):
+
+            fragmento = None
+
+            for _ in range(20):
+
+                candidato = (
+                    self.provider.search_random()
+                )
+
+                if candidato not in self.usados:
+
+                    self.usados.add(
+                        candidato
+                    )
+
+                    fragmento = candidato
+
+                    break
+
+            if fragmento is None:
+
+                return None
+
+            question = (
+                self.generator.generate(
+                    fragmento
+                )
             )
 
-            # Compatibilidad con formatos alternativos
-            if "alternativas" not in data:
-                if "a" in data:
-                    data["alternativas"] = data["a"]
-                elif (
-                    "a1" in data and
-                    "a2" in data and
-                    "a3" in data and
-                    "a4" in data
-                ):
-                    data["alternativas"] = [
-                        data["a1"],
-                        data["a2"],
-                        data["a3"],
-                        data["a4"]
-                    ]
-        except Exception as e:
+            errors = []
 
-            print("\nERROR JSON:\n")
-            print(response)
-
-            raise e
-
-        # Limpia prefijos tipo:
-        # A) ...
-        # B) ...
-        # C) ...
-        alternativas_limpias = []
-
-        for opcion in data.get(
-            "alternativas",
-            []
-        ):
-
-            if not isinstance(
-                opcion,
-                str
-            ):
-                continue
-
-            opcion = re.sub(
-                r'^[A-Z]\)\s*',
-                '',
-                opcion
+            errors.extend(
+                exam_validator.validate(
+                    question
+                )
             )
 
-            alternativas_limpias.append(
-                opcion
+            errors.extend(
+                semantic_validator.validate(
+                    question
+                )
             )
 
-        data["alternativas"] = alternativas_limpias
+            if not errors:
 
-        if (
-            "a1" in data and
-            "a2" in data and
-            "a3" in data and
-            "a4" in data
-        ):
+                return question
 
-            if data["alternativas"] == [
-                "a1",
-                "a2",
-                "a3",
-                "a4"
-            ]:
-
-                data["alternativas"] = [
-                    data["a1"],
-                    data["a2"],
-                    data["a3"],
-                    data["a4"]
-                ]
-
-        print(
-            "ALTERNATIVAS:",
-            data["alternativas"]
-        )
-
-        print(
-            "TOTAL:",
-            len(data["alternativas"])
-        )
-
-        if len( 
-            data["alternativas"] 
-        ) != 4:
-        
-            raise ValueError(
-                f"Pregunta inválida: se esperaban 4 alternativas y llegaron {len(data['alternativas'])}"
+            print(
+                f"Pregunta descartada: {errors}"
             )
 
-        if "correcta" not in data:
-
-            raise ValueError(
-                "Pregunta inválida: falta el campo correcta"
-            )
-
-        if data["correcta"] < 0 or data["correcta"] >= len(data["alternativas"]):
-
-            raise ValueError(
-                f"Índice de respuesta inválido: {data['correcta']}"
-            )
-
-        if "q" not in data:
-
-            raise ValueError(
-                "Pregunta inválida: falta el campo q"
-            )
-
-        if "explicacion" not in data:
-
-            raise ValueError(
-                "Pregunta inválida: falta el campo explicacion"
-            )
-
-        if not data.get(
-            "q",
-            ""
-        ).strip():
-
-            raise ValueError(
-                "Pregunta inválida: pregunta vacía"
-            )            
-
-        if not data.get(
-            "explicacion",
-            ""
-        ).strip():
-            raise ValueError(
-                "Pregunta inválida: explicación vacía"
-            )                      
-
-        return ExamQuestion(
-            **data
+        raise ValueError(
+            "No se pudo generar una pregunta válida"
         )
 
     def generate_exam(
@@ -169,6 +96,7 @@ class GenerateService:
         tema: str,
         cantidad: int
     ):
+        self.usados.clear()
 
         questions = []
 
@@ -179,7 +107,8 @@ class GenerateService:
                 question = self.generate(
                     tema
                 )
-
+                if question is None:
+                    break
                 questions.append(
                     question
                 )

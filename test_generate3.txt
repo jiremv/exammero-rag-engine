@@ -1,0 +1,67 @@
+from app.services.generate_service import GenerateService
+from app.generators.xml_generator import XmlGenerator
+
+from app.validators.exam_validator import ExamValidator
+from app.validators.semantic_validator import SemanticValidator
+
+
+service = GenerateService()
+
+question = service.generate(
+    "Señales de tránsito"
+)
+
+print("\nPREGUNTA:")
+print(question.q)
+
+print("\nRESPUESTA CORRECTA:")
+print(
+    question.alternativas[
+        question.correcta
+    ]
+)
+
+print("\nEXPLICACION:")
+print(
+    question.explicacion
+)
+
+exam_validator = ExamValidator()
+
+exam_errors = exam_validator.validate(
+    question
+)
+
+semantic_validator = SemanticValidator()
+
+semantic_errors = semantic_validator.validate(
+    question
+)
+
+errores = (
+    exam_errors +
+    semantic_errors
+)
+
+print(
+    "\nERRORES:",
+    errores
+)
+
+if errores:
+
+    print(
+        "\nPregunta descartada"
+    )
+
+else:
+
+    generator = XmlGenerator()
+
+    xml = generator.generate(
+        question
+    )
+
+    print("\nXML GENERADO:\n")
+
+    print(xml)

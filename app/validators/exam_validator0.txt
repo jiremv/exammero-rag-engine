@@ -7,22 +7,12 @@ class ExamValidator:
 
         errores = []
 
-        if not question.q.strip():
-
+        if len(question.alternativas) < 3:
             errores.append(
-                "Pregunta vacía"
-            )
-
-        if len(
-            question.alternativas
-        ) != 4:
-
-            errores.append(
-                "La pregunta debe tener exactamente 4 alternativas"
+                "Menos de 3 alternativas"
             )
 
         if question.correcta < 0:
-
             errores.append(
                 "Respuesta correcta negativa"
             )
@@ -30,13 +20,11 @@ class ExamValidator:
         if question.correcta >= len(
             question.alternativas
         ):
-
             errores.append(
                 "Índice de respuesta inválido"
             )
 
-        if not question.explicacion.strip():
-
+        if not question.explicacion:
             errores.append(
                 "Explicación vacía"
             )

@@ -1,0 +1,58 @@
+import random
+
+from app.models.exam_question import ExamQuestion
+
+
+class ControlledQuestionGenerator:
+
+    def generate(
+        self,
+        contexto: str,
+        distractores: list[str]
+    ):
+
+        frase = contexto.strip()
+
+        if frase.endswith("."):
+            frase = frase[:-1]
+
+        pregunta = (
+            "¿Qué indica la siguiente señal o regla?"
+        )
+
+        respuesta_correcta = frase
+
+        alternativas = [
+            respuesta_correcta
+        ]
+
+        alternativas.extend(
+            distractores[:3]
+        )
+
+        random.shuffle(
+            alternativas
+        )
+
+        correcta = alternativas.index(
+            respuesta_correcta
+        )
+
+        explicacion = (
+            f"La alternativa correcta es "
+            f"'{respuesta_correcta}' "
+            f"porque {frase.lower()}."
+        )
+
+        return ExamQuestion(
+            q0="",
+            g0="",
+            q=pregunta,
+            q2="",
+            q3="",
+            q4="",
+            q5="",
+            alternativas=alternativas,
+            correcta=correcta,
+            explicacion=explicacion
+        )

@@ -32,23 +32,31 @@ Formato:
 {{
 "q0":"",
 "g0":"",
-"q":"Pregunta principal",
+"q":"¿Qué indica la señal PARE?",
 "q2":"",
 "q3":"",
 "q4":"",
 "q5":"",
 "alternativas":[
-"texto alternativa",
-"texto alternativa",
-"texto alternativa",
-"texto alternativa"
+"Detener completamente el vehículo antes de continuar",
+"Continuar sin reducir la velocidad",
+"Adelantar a otro vehículo",
+"Girar obligatoriamente a la derecha"
 ],
 "correcta":0,
-"explicacion":"explicacion de la respuesta"
+"explicacion":"La alternativa correcta es Detener completamente el vehículo antes de continuar, porque la señal PARE obliga al conductor a detener completamente el vehículo antes de continuar."
 }}
 
 Reglas:
 
+* La respuesta correcta debe contener palabras exactas del contexto.
+* No reformules la respuesta correcta.
+* Utiliza la misma terminología presente en el contexto.
+* No escribas "Pregunta principal".
+* No escribas preguntas genéricas.
+* La alternativa correcta debe aparecer exactamente en la explicación.
+* La explicación debe mencionar textualmente la alternativa correcta.
+* No generes temas fuera del contexto, como salud, gafas, contactos, medicina u otros temas externos.
 * NO generes preguntas sobre el mismo concepto si ya fue utilizado anteriormente.
 * Selecciona aleatoriamente un fragmento distinto del contexto recuperado.
 * Las cuatro alternativas deben ser plausibles.
@@ -58,6 +66,10 @@ Reglas:
 * Genera exactamente 4 alternativas.
 * No inventes información.
 * No uses conocimientos externos.
+* La respuesta correcta debe derivarse literalmente de una frase del contexto.
+* Si la información no existe en el contexto, no la inventes.
+* No combines dos señales distintas en una misma pregunta.
+* La pregunta debe referirse a una sola señal o regla del contexto.
 * Debe existir una única respuesta correcta.
 * NO colocar A), B), C), D).
 * correcta es el índice empezando en 0.
@@ -67,6 +79,9 @@ Reglas:
         response = chat(
             model="llama3.2:3b",
             format="json",
+            options={
+                "temperature": 0.4
+            },            
             messages=[
                 {
                     "role": "user",

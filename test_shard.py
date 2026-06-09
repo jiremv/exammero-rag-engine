@@ -2,23 +2,17 @@ from app.shards.manejo.manejo_shard import ManejoShard
 
 shard = ManejoShard()
 
-print("========== PEATONES ==========")
-print(
-    shard.search(
-        "peatones"
-    )
-)
+for tema in [
+    "PARE",
+    "PEATONES",
+    "SEMAFORO",
+    "VELOCIDAD",
+    "ADELANTAR"
+]:
+    print("\n================")
+    print(tema)
+    print("================")
 
-print("========== VELOCIDAD ==========")
-print(
-    shard.search(
-        "velocidad maxima"
+    print(
+        shard.search(tema)
     )
-)
-
-print("========== SEMAFORO ==========")
-print(
-    shard.search(
-        "luz roja"
-    )
-)

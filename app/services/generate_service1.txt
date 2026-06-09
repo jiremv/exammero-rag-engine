@@ -1,0 +1,240 @@
+import json
+import re
+import random
+
+from app.models.exam_question import ExamQuestion
+from app.providers.ollama_provider import OllamaProvider
+
+from app.validators.exam_validator import ExamValidator
+from app.validators.semantic_validator import SemanticValidator
+
+from app.shards.manejo.manejo_shard import ManejoShard
+from app.generators.controlled_question_generator import ControlledQuestionGenerator
+from app.generators.distractor_generator import DistractorGenerator
+
+class GenerateService:
+
+    def __init__(self):
+
+        self.provider = OllamaProvider()
+        self.shard = ManejoShard()
+
+        self.controlled_generator = (
+            ControlledQuestionGenerator()
+        )
+
+        self.distractor_generator = (
+            DistractorGenerator()
+        )
+
+
+    def generate(
+        self,
+        tema: str
+    ):
+
+        exam_validator = ExamValidator()
+
+        semantic_validator = SemanticValidator()
+
+        for _ in range(5):
+
+            response = self.provider.generate(
+                tema
+            )
+
+            print(
+                "========== RESPUESTA OLLAMA =========="
+            )
+
+            print(response)
+
+            print(
+                "======================================"
+            )
+
+            try:
+
+                data = json.loads(
+                    response
+                )
+
+            except Exception as e:
+
+                print(
+                    "\nERROR JSON:\n"
+                )
+
+                print(
+                    response
+                )
+
+                continue
+
+            # Compatibilidad con formatos alternativos
+
+            if "alternativas" not in data:
+
+                if "a" in data:
+
+                    data["alternativas"] = data["a"]
+
+                elif (
+                    "a1" in data and
+                    "a2" in data and
+                    "a3" in data and
+                    "a4" in data
+                ):
+
+                    data["alternativas"] = [
+                        data["a1"],
+                        data["a2"],
+                        data["a3"],
+                        data["a4"]
+                    ]
+
+            alternativas_limpias = []
+
+            for opcion in data.get(
+                "alternativas",
+                []
+            ):
+
+                if not isinstance(
+                    opcion,
+                    str
+                ):
+                    continue
+
+                opcion = re.sub(
+                    r'^[A-Z]\)\s*',
+                    '',
+                    opcion
+                )
+
+                alternativas_limpias.append(
+                    opcion
+                )
+
+            data["alternativas"] = (
+                alternativas_limpias
+            )
+
+            #print(
+            #    "ALTERNATIVAS:",
+            #    data["alternativas"]
+            #)
+
+            #print(
+            #    "TOTAL:",
+            #    len(
+            #        data["alternativas"]
+            #    )
+            #)
+
+            try:
+
+                question = ExamQuestion(
+                    **data
+                )
+
+            except Exception as e:
+
+                print(
+                    f"Pregunta descartada: {e}"
+                )
+
+                continue
+
+            errors = []
+
+            errors.extend(
+                exam_validator.validate(
+                    question
+                )
+            )
+
+            errors.extend(
+                semantic_validator.validate(
+                    question
+                )
+            )
+
+            if not errors:
+
+                return question
+
+            print(
+                f"Pregunta descartada: {errors}"
+            )
+
+        raise ValueError(
+            "No se pudo generar una pregunta válida después de 5 intentos"
+        )
+
+    def generate_exam(
+        self,
+        tema: str,
+        cantidad: int
+    ):
+
+        questions = []
+
+        temas = [
+            tema,
+            "PARE",
+            "CEDA EL PASO",
+            "CALZADA RESBALADIZA",
+            "DOBLE SENTIDO",
+            "PROHIBIDO ADELANTAR",
+            "SEMAFORO",
+            "PEATONES",
+            "VELOCIDAD"
+        ]
+
+        for _ in range(cantidad):
+
+            try:
+
+                tema_random = random.choice(
+                    temas
+                )
+
+                question = self.generate(
+                    tema_random
+                )
+                questions.append(
+                    question
+                )
+
+            except Exception as e:
+
+                print(
+                    f"Pregunta descartada: {e}"
+                )
+
+        return questions
+
+    def generate_controlled(
+        self,
+        tema: str
+    ):
+
+        contexto = self.shard.search_one(
+            tema
+        )
+
+        distractores = (
+            self.distractor_generator.generate(
+                contexto
+            )
+        )
+
+        question = (
+            self.controlled_generator.generate(
+                contexto,
+                distractores
+            )
+        )
+
+        return question        
