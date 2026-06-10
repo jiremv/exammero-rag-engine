@@ -16,6 +16,9 @@ Motor RAG para la plataforma Exammero.
 - Generación de respuestas
 - Explicaciones automáticas
 
+  <img width="1216" height="677" alt="image" src="https://github.com/user-attachments/assets/212a3e20-c959-47dc-b76c-9b39c632d91e" />
+
+
 ## Stack
 
 - Python
